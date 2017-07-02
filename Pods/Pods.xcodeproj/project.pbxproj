@@ -1,0 +1,1641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005524A2779ED616BC8F615BD6D536EE /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DACB07AD79654A143536E1D848EAA34 /* SwiftyJSON-dummy.m */; };
+		015C902B9C0E63DA0519A0D34E10F739 /* CosmosSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745A00B0F0A4396DA90E8C105D86EDE /* CosmosSettings.swift */; };
+		05006BDD7301FCF2678618DEDCC69B94 /* UIImage+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E78B46C17C9FA83DD208FADDFCA12D /* UIImage+AlamofireImage.swift */; };
+		07476D1102A291B3BE88BC04152C0732 /* Pods-YelpAndGoogleMapTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD1FC6958213ED72523ABDB7ED7A4CCE /* Pods-YelpAndGoogleMapTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EC88D04EAE0CD3EFD3C3C89C1B9F45F /* CosmosLocalizedRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C82A117841D408724FA1B535D542E5 /* CosmosLocalizedRating.swift */; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30508C9F86E55FF7F9F4F7FF60F8E6F /* Timeline.swift */; };
+		16BB96E9A7E9F4FF2B91630D3CC00A42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 523CF47B35F673745DF088949FF199AF /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		202822E4668C16D115A8F68F3ADF0E0F /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E3EE78528B481950EA376128D704FA /* ImageDownloader.swift */; };
+		25DFA72039CBA011EBA738AA73084A8E /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D106F6BEFEC97108DF700DF4F12E63 /* CosmosSize.swift */; };
+		26479B07464784F3BF8C0853CA049976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */; };
+		27996F52CCABBD6D0874B79D1B913598 /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FDAE38C3C6102BADAEA41D643CA8E6 /* ImageFilter.swift */; };
+		2BD7CFD41DACC439E8C0A527F1643495 /* Request+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBACDD29835A7C20FE2EA4302D012C9 /* Request+AlamofireImage.swift */; };
+		2EA0415A1A8A4FFC7403E201F915F9A4 /* AFIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0886CEBDDB58DA24AA1FADEB5832B1D5 /* AFIError.swift */; };
+		304C5736AC5D49B526C709397D0CF048 /* UIImageView+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFCC0AFAE4710453B7DC464CDC890FF /* UIImageView+AlamofireImage.swift */; };
+		32EDA9ED83F4442303A46839027E152E /* AlamofireImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 412E74A6A0FA7A2588DB5AC0FE0ED631 /* AlamofireImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919AB0909F3BFF1DCB0CD685B48E04F6 /* TaskDelegate.swift */; };
+		371F422D050761A63F0156F537B8902D /* CosmosDefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC330EE25A532071A2FDCED7B734660B /* CosmosDefaultSettings.swift */; };
+		37F951F2BDB75BD682C2999EB7B51A35 /* AlamofireImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D29B36A309673D01CC833C5B385B3A6 /* AlamofireImage-dummy.m */; };
+		3DF6ECF23D38E7DA5B5B2B43707F2F4D /* Cosmos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE524E4CA35E5B4F6AB1415A21A225B /* Cosmos-dummy.m */; };
+		404D4027D74B319391589D74EB1CC91B /* Pods-YelpAndGoogleMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA11DE022C2951412700674D81389F8 /* Pods-YelpAndGoogleMap-dummy.m */; };
+		424AD9605CBDCD867083B9820784E0AC /* CosmosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D402FC19591B7221CEACA60A7A03DF /* CosmosText.swift */; };
+		45F546D14166EDEE46371951EC705C03 /* CosmosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034EFB50B51FC305388E221DD1C0A73F /* CosmosView.swift */; };
+		4F40A9CBB316E7100828F0C6F5714946 /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79BE080F8A75A415DCB9F018C8EA6FB /* CosmosTouch.swift */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A0B0D8FAC38774C9606DA8FCF37845 /* Request.swift */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E26D5082569F089160F7CB902DA9594 /* DispatchQueue+Alamofire.swift */; };
+		613167D898FF421A6F75D1FE5D145B9B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D123F37E446CE4D7ED2C39FADCF4D10C /* ServerTrustPolicy.swift */; };
+		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4420F04FEEF5FAB9A5CD973D0444CF32 /* SessionDelegate.swift */; };
+		7CC5A43D7E1372EB6292FCBC0151A36E /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336DA081537995ACC97C24A7CA2ED208 /* CosmosAccessibility.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C57B54D64FEFE286B1EA5FEC74669E /* Result.swift */; };
+		88BA9FFC474BD7B995A0CEA06FF431F7 /* StarFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB5C3568D4853095CDCEEBB13D3E8A4 /* StarFillMode.swift */; };
+		9236B233355F88EB7285EBC0F39DE8F8 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43122CB73CEEA563FFF3B54CEEA38505 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		930BC24A14C0E49B8DC0AE94DDA87E1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */; };
+		99D187EFBBCC0E188CE8C4F12BA8438A /* Pods-YelpAndGoogleMapUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60760CD2717CF355FDBDF66A0DE59D80 /* Pods-YelpAndGoogleMapUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99F08F6FE2B165EEBD5E01EDDA176620 /* CosmosRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CAAB167BE00A7D3E909F1A2DBFB792 /* CosmosRating.swift */; };
+		9D77C1DF8844F6DA64B4CF14B1F15795 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */; };
+		9E3E62C5438EA73A663D97BF30571E36 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59C4D3A8260C654444DF49B6FCA5A58 /* SwiftyJSON.swift */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6A7955B2A88C3A7B953D9398C73982 /* AFError.swift */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0039192D1EE619E45912C6564EF84 /* NetworkReachabilityManager.swift */; };
+		A37CF77D5CA63B9104890687496A1EE3 /* Pods-YelpAndGoogleMapTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B5AEAEA5279F3C7E624D30FB5544A8 /* Pods-YelpAndGoogleMapTests-dummy.m */; };
+		A8D0F1C3405DD1451822DBEDCB4925BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F48BA6F7F506EA2428AEE4DF04FD63 /* Alamofire-dummy.m */; };
+		AA971D9492DD9B9E288045C2C0CC9A99 /* CosmosLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CF627C027FACCE5DD412260FE971D4 /* CosmosLayers.swift */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B70C4DB1536B5AD3F2BD9588F60FD0 /* SessionManager.swift */; };
+		B1DB1DC0172DA3C7C9F3682B69F7EA28 /* Pods-YelpAndGoogleMapUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4611FA3A7DB442FDF95E500EC31E2B66 /* Pods-YelpAndGoogleMapUITests-dummy.m */; };
+		B47C424626FFD59C30B929BBC45AA7A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C1DF588C70CA19ABEB21C50B391539 /* MultipartFormData.swift */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24F600989F128B03AEEA55B6FA39333 /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E67ED799EEF8FC0DE830D64DA5186 /* ParameterEncoding.swift */; };
+		C0A41310C66B9B832C9AE85F0504A5B4 /* Pods-YelpAndGoogleMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C00003958951AFC62FDA4ACA5BD342 /* Pods-YelpAndGoogleMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C73BF39A4CCC3E450E102C23027F8FF8 /* UIButton+AlamofireImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C729EC8101B9541F5CC01269A2D7F /* UIButton+AlamofireImage.swift */; };
+		C79D2F2FCE3EF9B31D1222E0C4A59DC5 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC2F8EC0249BC19D57D9F4B02856F7 /* RightToLeft.swift */; };
+		C95B658D689425ED9DAA95EB479B44A6 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD27D8DDC45ED285E48D63725572215B /* StarLayer.swift */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79005456FE8780D49B1BC835ACF1279F /* Response.swift */; };
+		D9E544B8CB42DA8DD44838F83610D8E0 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A3675C45AA0ECC4311946E97268B3C /* ImageCache.swift */; };
+		DE5E91A47C1BF6869DF17747D61C2FF1 /* Cosmos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0607B2A5A63038B92E6A682840BBA78 /* Cosmos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1FF4985892E23B75A3381EFF830DFD5 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B769F73DCEDC38DFF1524FCF6836F /* Image.swift */; };
+		E2D8D1AA0D41C73C4B570DE682C05D72 /* CosmosTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3B2D498D3522AE653D158071D7C9B /* CosmosTouchTarget.swift */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A61FDAD28FCA7E52CD91D7CBFD6D61 /* Notifications.swift */; };
+		F66DE3EF01408C42C115587B201CB541 /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7A84338850FE5523D05383E526529 /* CosmosLayerHelper.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB081E3F7CB32A4420B2CC287A45698 /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46FF2B8728B8BCA8B639A4B65D5C2B9 /* Alamofire.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DDBDC6EF4F9358F0631516C54A45446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		79B41FB821ED370F0D7F9A3F64638DCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EFE4C70245EE2857D336B8B9FA4E825;
+			remoteInfo = AlamofireImage;
+		};
+		A1758AA696D56310AA192B587162169A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		A9D0DB6040BA0C58CF07701078065CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95347F2CD7D798BA142A9500D3353C94;
+			remoteInfo = SwiftyJSON;
+		};
+		AE56BA9D6195841BDFC7F111553991F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FDC533A4360A68ABDCE852F04B30927;
+			remoteInfo = Cosmos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C57B54D64FEFE286B1EA5FEC74669E /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		01E57F7B706A7516EF96B6CC4BC1D4D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034EFB50B51FC305388E221DD1C0A73F /* CosmosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = Cosmos/CosmosView.swift; sourceTree = "<group>"; };
+		05157D399ECF20213CD4FD603EFB9FE1 /* Pods-YelpAndGoogleMapTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelpAndGoogleMapTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0886CEBDDB58DA24AA1FADEB5832B1D5 /* AFIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFIError.swift; path = Source/AFIError.swift; sourceTree = "<group>"; };
+		0AF3B2D498D3522AE653D158071D7C9B /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = Cosmos/Helpers/CosmosTouchTarget.swift; sourceTree = "<group>"; };
+		0CDBD12535499EDCF47FF257A368326E /* Cosmos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cosmos.framework; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0D5C7FAB5245BBB6162A2B155323F513 /* Pods-YelpAndGoogleMap-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YelpAndGoogleMap-frameworks.sh"; sourceTree = "<group>"; };
+		0EDBAAEF7BCAC6A3620B9E11F7E357C5 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEDCF281F3BAEC44858CDD8FE1F90C0 /* Pods-YelpAndGoogleMapUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YelpAndGoogleMapUITests-frameworks.sh"; sourceTree = "<group>"; };
+		0FA0039192D1EE619E45912C6564EF84 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		111546E32E503DBCA2CDD0FA341EC825 /* Pods-YelpAndGoogleMap-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YelpAndGoogleMap-resources.sh"; sourceTree = "<group>"; };
+		1AB537B5F8281BA0967DA79CA19C5651 /* Pods-YelpAndGoogleMapTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YelpAndGoogleMapTests-frameworks.sh"; sourceTree = "<group>"; };
+		1DE400992A953DB0E2BDFA84CE003A9D /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireImage.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA3C062BC1C8A1FCC718B9CA60D177B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21FAF00B615956EFCB9578F120273062 /* Pods-YelpAndGoogleMapUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YelpAndGoogleMapUITests.modulemap"; sourceTree = "<group>"; };
+		27A59ABE6A130235C583D7FEA48456D5 /* Pods_YelpAndGoogleMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YelpAndGoogleMapTests.framework; path = "Pods-YelpAndGoogleMapTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D106F6BEFEC97108DF700DF4F12E63 /* CosmosSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSize.swift; path = Cosmos/CosmosSize.swift; sourceTree = "<group>"; };
+		2AE524E4CA35E5B4F6AB1415A21A225B /* Cosmos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cosmos-dummy.m"; sourceTree = "<group>"; };
+		2C64627E0967D4EE38286BFE11DE8187 /* Pods-YelpAndGoogleMap-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelpAndGoogleMap-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E1E9EBA95B4BE4B0F11259DE0867B52 /* Pods-YelpAndGoogleMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelpAndGoogleMap.release.xcconfig"; sourceTree = "<group>"; };
+		2E6A7955B2A88C3A7B953D9398C73982 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		3023CF031365EC80D76D7AE5AD603720 /* Pods-YelpAndGoogleMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelpAndGoogleMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		31A3675C45AA0ECC4311946E97268B3C /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Source/ImageCache.swift; sourceTree = "<group>"; };
+		32D929783E4EC63E94B78680F3E7E08C /* AlamofireImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlamofireImage.xcconfig; sourceTree = "<group>"; };
+		336DA081537995ACC97C24A7CA2ED208 /* CosmosAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = Cosmos/CosmosAccessibility.swift; sourceTree = "<group>"; };
+		35A61FDAD28FCA7E52CD91D7CBFD6D61 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		3745A00B0F0A4396DA90E8C105D86EDE /* CosmosSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSettings.swift; path = Cosmos/CosmosSettings.swift; sourceTree = "<group>"; };
+		39676267C4A7ECD27EB2B1076D3BD515 /* Pods_YelpAndGoogleMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YelpAndGoogleMap.framework; path = "Pods-YelpAndGoogleMap.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDC2F8EC0249BC19D57D9F4B02856F7 /* RightToLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = Cosmos/Helpers/RightToLeft.swift; sourceTree = "<group>"; };
+		4048C424EF7F1A930460E6CC67958EC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		412E74A6A0FA7A2588DB5AC0FE0ED631 /* AlamofireImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-umbrella.h"; sourceTree = "<group>"; };
+		41FDAE38C3C6102BADAEA41D643CA8E6 /* ImageFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFilter.swift; path = Source/ImageFilter.swift; sourceTree = "<group>"; };
+		43122CB73CEEA563FFF3B54CEEA38505 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		4420F04FEEF5FAB9A5CD973D0444CF32 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		4611FA3A7DB442FDF95E500EC31E2B66 /* Pods-YelpAndGoogleMapUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YelpAndGoogleMapUITests-dummy.m"; sourceTree = "<group>"; };
+		46E3EE78528B481950EA376128D704FA /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Source/ImageDownloader.swift; sourceTree = "<group>"; };
+		48808419100EC3CAB63888637B788D3E /* Cosmos.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.xcconfig; sourceTree = "<group>"; };
+		523CF47B35F673745DF088949FF199AF /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		52871C6DF66A11E556C1B813308F7787 /* Pods-YelpAndGoogleMapUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YelpAndGoogleMapUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53C1DF588C70CA19ABEB21C50B391539 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		545AB4184CCC2B5D587FB318C1503C42 /* Cosmos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-prefix.pch"; sourceTree = "<group>"; };
+		58AE4DFE681DA64A4B97A9B61C998894 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		5AB03122F98D8A705CDD74062F2A0FB3 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		5BBACDD29835A7C20FE2EA4302D012C9 /* Request+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Request+AlamofireImage.swift"; path = "Source/Request+AlamofireImage.swift"; sourceTree = "<group>"; };
+		60760CD2717CF355FDBDF66A0DE59D80 /* Pods-YelpAndGoogleMapUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YelpAndGoogleMapUITests-umbrella.h"; sourceTree = "<group>"; };
+		62CF627C027FACCE5DD412260FE971D4 /* CosmosLayers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayers.swift; path = Cosmos/CosmosLayers.swift; sourceTree = "<group>"; };
+		67A082AF08890690DFDE2A39ED78DD29 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B8434CCF5E9CB7B74D285B1ADFA45E6 /* Pods-YelpAndGoogleMapTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YelpAndGoogleMapTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D31EE2C632E872B9A00926B0ECBEEC6 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		6E26D5082569F089160F7CB902DA9594 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F48BA6F7F506EA2428AEE4DF04FD63 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		79005456FE8780D49B1BC835ACF1279F /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		7C523FEBB7CAB7944C12A8E42A27CB5F /* Pods-YelpAndGoogleMapUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YelpAndGoogleMapUITests-resources.sh"; sourceTree = "<group>"; };
+		7FD7A84338850FE5523D05383E526529 /* CosmosLayerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayerHelper.swift; path = Cosmos/CosmosLayerHelper.swift; sourceTree = "<group>"; };
+		80F489A24EDAD4674CC2B21DE732C9D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8297ACEE8D8E9ED33D65BC329F88F0E2 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		8398551AEDE898B15FD0DB07BC874158 /* Pods-YelpAndGoogleMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YelpAndGoogleMap.modulemap"; sourceTree = "<group>"; };
+		83C82A117841D408724FA1B535D542E5 /* CosmosLocalizedRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLocalizedRating.swift; path = Cosmos/CosmosLocalizedRating.swift; sourceTree = "<group>"; };
+		867E41933F0BDA42A4508077B9D6EC6B /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		8A1B769F73DCEDC38DFF1524FCF6836F /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Source/Image.swift; sourceTree = "<group>"; };
+		8D29B36A309673D01CC833C5B385B3A6 /* AlamofireImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlamofireImage-dummy.m"; sourceTree = "<group>"; };
+		8DACB07AD79654A143536E1D848EAA34 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		919AB0909F3BFF1DCB0CD685B48E04F6 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93CAAB167BE00A7D3E909F1A2DBFB792 /* CosmosRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosRating.swift; path = Cosmos/CosmosRating.swift; sourceTree = "<group>"; };
+		98B4E287D1FF70E057FDA784CF032541 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF651E766A55B9DD4FD3399751D477B /* Pods_YelpAndGoogleMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YelpAndGoogleMapUITests.framework; path = "Pods-YelpAndGoogleMapUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA76E67F77FE12E29635BEF3CCE8B82 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		A0607B2A5A63038B92E6A682840BBA78 /* Cosmos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-umbrella.h"; sourceTree = "<group>"; };
+		A2B70C4DB1536B5AD3F2BD9588F60FD0 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		A5831CC6CA290306E4317B8FAA2497C1 /* Pods-YelpAndGoogleMapTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YelpAndGoogleMapTests-resources.sh"; sourceTree = "<group>"; };
+		A79BE080F8A75A415DCB9F018C8EA6FB /* CosmosTouch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouch.swift; path = Cosmos/CosmosTouch.swift; sourceTree = "<group>"; };
+		AD1FC6958213ED72523ABDB7ED7A4CCE /* Pods-YelpAndGoogleMapTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YelpAndGoogleMapTests-umbrella.h"; sourceTree = "<group>"; };
+		AF5406B2985387DC6F934641AE07D5CF /* Pods-YelpAndGoogleMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelpAndGoogleMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4CB127EA226BEE7EFCC403CC29B8059 /* AlamofireImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AlamofireImage.modulemap; sourceTree = "<group>"; };
+		B9BB212E2345C324C983D3FC51B3B315 /* Pods-YelpAndGoogleMapTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YelpAndGoogleMapTests.modulemap"; sourceTree = "<group>"; };
+		BAB5C3568D4853095CDCEEBB13D3E8A4 /* StarFillMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarFillMode.swift; path = Cosmos/StarFillMode.swift; sourceTree = "<group>"; };
+		BCB081E3F7CB32A4420B2CC287A45698 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		BD27D8DDC45ED285E48D63725572215B /* StarLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarLayer.swift; path = Cosmos/StarLayer.swift; sourceTree = "<group>"; };
+		BDCB651C9C0311D01893D8D5DCA3E62F /* Pods-YelpAndGoogleMap-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YelpAndGoogleMap-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C24F600989F128B03AEEA55B6FA39333 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		C654A5FE1EC90B77B431F3EDA701F5F7 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		C81B92B89DB7FEDB97990CF2B37BEC5E /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		CC330EE25A532071A2FDCED7B734660B /* CosmosDefaultSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosDefaultSettings.swift; path = Cosmos/CosmosDefaultSettings.swift; sourceTree = "<group>"; };
+		CF1E67ED799EEF8FC0DE830D64DA5186 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		D123F37E446CE4D7ED2C39FADCF4D10C /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		D2873F950EC37E9C248D2C2B34091C30 /* Pods-YelpAndGoogleMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelpAndGoogleMap.debug.xcconfig"; sourceTree = "<group>"; };
+		D2B5AEAEA5279F3C7E624D30FB5544A8 /* Pods-YelpAndGoogleMapTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YelpAndGoogleMapTests-dummy.m"; sourceTree = "<group>"; };
+		D5A506C08DA1F8A84A96BA4AE8C0E962 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB757FE1ACD38BC45C637FD151180F27 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		DDE93EE411FF411C3700BC48C6265DFF /* Cosmos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Cosmos.modulemap; sourceTree = "<group>"; };
+		DE64278D33B2EF0EBD9F8F5A9F8EE029 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A0B0D8FAC38774C9606DA8FCF37845 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		E0C00003958951AFC62FDA4ACA5BD342 /* Pods-YelpAndGoogleMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YelpAndGoogleMap-umbrella.h"; sourceTree = "<group>"; };
+		E46FF2B8728B8BCA8B639A4B65D5C2B9 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		E487B0866C5A0285C84DB6019A78D7AA /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		EA65DD37045F46F14D3CFD3FC44D2911 /* Pods-YelpAndGoogleMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelpAndGoogleMapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EAA11DE022C2951412700674D81389F8 /* Pods-YelpAndGoogleMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YelpAndGoogleMap-dummy.m"; sourceTree = "<group>"; };
+		EB7FEE450D8A8A64BF252DE9378509DF /* Pods-YelpAndGoogleMapUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YelpAndGoogleMapUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EBCCBB704D542F45DB249AA0C80D2A00 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		ED3FF652396C27FE3764C0D90711F154 /* AlamofireImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlamofireImage-prefix.pch"; sourceTree = "<group>"; };
+		ED6C729EC8101B9541F5CC01269A2D7F /* UIButton+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+AlamofireImage.swift"; path = "Source/UIButton+AlamofireImage.swift"; sourceTree = "<group>"; };
+		EFFCC0AFAE4710453B7DC464CDC890FF /* UIImageView+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+AlamofireImage.swift"; path = "Source/UIImageView+AlamofireImage.swift"; sourceTree = "<group>"; };
+		F0D402FC19591B7221CEACA60A7A03DF /* CosmosText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosText.swift; path = Cosmos/CosmosText.swift; sourceTree = "<group>"; };
+		F2E78B46C17C9FA83DD208FADDFCA12D /* UIImage+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+AlamofireImage.swift"; path = "Source/UIImage+AlamofireImage.swift"; sourceTree = "<group>"; };
+		F30508C9F86E55FF7F9F4F7FF60F8E6F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		F59C4D3A8260C654444DF49B6FCA5A58 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		F8F63FCD758394550832BDB34EF9AD03 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		FF7DCB7751CD733D4D347291792B51AB /* Pods-YelpAndGoogleMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YelpAndGoogleMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23E1D2C8911A1F4127AF93A478D985B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D0F1C3405DD1451822DBEDCB4925BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28F3F379139E50A0FAF6B74367424B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D77C1DF8844F6DA64B4CF14B1F15795 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A08AD13DDF3BBE89C56B051F9099364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BB96E9A7E9F4FF2B91630D3CC00A42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF30650E2D60B2CB467C83F62773B5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47C424626FFD59C30B929BBC45AA7A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571DEC9F0F6044F8837979631DEA9D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930BC24A14C0E49B8DC0AE94DDA87E1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF98FBBDC964E0CC738F6B323B4C1BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613167D898FF421A6F75D1FE5D145B9B /* Alamofire.framework in Frameworks */,
+				26479B07464784F3BF8C0853CA049976 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F584BA1B6DEC65F35B42041837BE06 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDE93EE411FF411C3700BC48C6265DFF /* Cosmos.modulemap */,
+				48808419100EC3CAB63888637B788D3E /* Cosmos.xcconfig */,
+				2AE524E4CA35E5B4F6AB1415A21A225B /* Cosmos-dummy.m */,
+				545AB4184CCC2B5D587FB318C1503C42 /* Cosmos-prefix.pch */,
+				A0607B2A5A63038B92E6A682840BBA78 /* Cosmos-umbrella.h */,
+				01E57F7B706A7516EF96B6CC4BC1D4D2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cosmos";
+			sourceTree = "<group>";
+		};
+		23CA0CE5270F94B2073F23AA397C70B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EA76E67F77FE12E29635BEF3CCE8B82 /* GoogleMaps.framework */,
+				6D31EE2C632E872B9A00926B0ECBEEC6 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CEF4A9EB4933C1E134FA710797E10DF /* Pods-YelpAndGoogleMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5A506C08DA1F8A84A96BA4AE8C0E962 /* Info.plist */,
+				B9BB212E2345C324C983D3FC51B3B315 /* Pods-YelpAndGoogleMapTests.modulemap */,
+				6B8434CCF5E9CB7B74D285B1ADFA45E6 /* Pods-YelpAndGoogleMapTests-acknowledgements.markdown */,
+				05157D399ECF20213CD4FD603EFB9FE1 /* Pods-YelpAndGoogleMapTests-acknowledgements.plist */,
+				D2B5AEAEA5279F3C7E624D30FB5544A8 /* Pods-YelpAndGoogleMapTests-dummy.m */,
+				1AB537B5F8281BA0967DA79CA19C5651 /* Pods-YelpAndGoogleMapTests-frameworks.sh */,
+				A5831CC6CA290306E4317B8FAA2497C1 /* Pods-YelpAndGoogleMapTests-resources.sh */,
+				AD1FC6958213ED72523ABDB7ED7A4CCE /* Pods-YelpAndGoogleMapTests-umbrella.h */,
+				3023CF031365EC80D76D7AE5AD603720 /* Pods-YelpAndGoogleMapTests.debug.xcconfig */,
+				AF5406B2985387DC6F934641AE07D5CF /* Pods-YelpAndGoogleMapTests.release.xcconfig */,
+			);
+			name = "Pods-YelpAndGoogleMapTests";
+			path = "Target Support Files/Pods-YelpAndGoogleMapTests";
+			sourceTree = "<group>";
+		};
+		347EF8CDD2C187275389E9025D035372 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB757FE1ACD38BC45C637FD151180F27 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		368AF3E9B2FDD2C4A71EF758C7E06DF9 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				F59C4D3A8260C654444DF49B6FCA5A58 /* SwiftyJSON.swift */,
+				DAF2BB6A6AE1F7443F9F317B6962B06C /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		380D96A95EF74E54894FA46B2BB93EAD /* Cosmos */ = {
+			isa = PBXGroup;
+			children = (
+				336DA081537995ACC97C24A7CA2ED208 /* CosmosAccessibility.swift */,
+				CC330EE25A532071A2FDCED7B734660B /* CosmosDefaultSettings.swift */,
+				7FD7A84338850FE5523D05383E526529 /* CosmosLayerHelper.swift */,
+				62CF627C027FACCE5DD412260FE971D4 /* CosmosLayers.swift */,
+				83C82A117841D408724FA1B535D542E5 /* CosmosLocalizedRating.swift */,
+				93CAAB167BE00A7D3E909F1A2DBFB792 /* CosmosRating.swift */,
+				3745A00B0F0A4396DA90E8C105D86EDE /* CosmosSettings.swift */,
+				27D106F6BEFEC97108DF700DF4F12E63 /* CosmosSize.swift */,
+				F0D402FC19591B7221CEACA60A7A03DF /* CosmosText.swift */,
+				A79BE080F8A75A415DCB9F018C8EA6FB /* CosmosTouch.swift */,
+				0AF3B2D498D3522AE653D158071D7C9B /* CosmosTouchTarget.swift */,
+				034EFB50B51FC305388E221DD1C0A73F /* CosmosView.swift */,
+				3FDC2F8EC0249BC19D57D9F4B02856F7 /* RightToLeft.swift */,
+				BAB5C3568D4853095CDCEEBB13D3E8A4 /* StarFillMode.swift */,
+				BD27D8DDC45ED285E48D63725572215B /* StarLayer.swift */,
+				05F584BA1B6DEC65F35B42041837BE06 /* Support Files */,
+			);
+			name = Cosmos;
+			path = Cosmos;
+			sourceTree = "<group>";
+		};
+		415890B735975F926A544EF66D6697B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE64278D33B2EF0EBD9F8F5A9F8EE029 /* Alamofire.framework */,
+				1DE400992A953DB0E2BDFA84CE003A9D /* AlamofireImage.framework */,
+				0CDBD12535499EDCF47FF257A368326E /* Cosmos.framework */,
+				39676267C4A7ECD27EB2B1076D3BD515 /* Pods_YelpAndGoogleMap.framework */,
+				27A59ABE6A130235C583D7FEA48456D5 /* Pods_YelpAndGoogleMapTests.framework */,
+				9DF651E766A55B9DD4FD3399751D477B /* Pods_YelpAndGoogleMapUITests.framework */,
+				0EDBAAEF7BCAC6A3620B9E11F7E357C5 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C9B01E3DB02B659AECEED92FBB724B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4CB127EA226BEE7EFCC403CC29B8059 /* AlamofireImage.modulemap */,
+				32D929783E4EC63E94B78680F3E7E08C /* AlamofireImage.xcconfig */,
+				8D29B36A309673D01CC833C5B385B3A6 /* AlamofireImage-dummy.m */,
+				ED3FF652396C27FE3764C0D90711F154 /* AlamofireImage-prefix.pch */,
+				412E74A6A0FA7A2588DB5AC0FE0ED631 /* AlamofireImage-umbrella.h */,
+				80F489A24EDAD4674CC2B21DE732C9D9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlamofireImage";
+			sourceTree = "<group>";
+		};
+		51A9B78D6A7E7FB5A465754528750815 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0D0533E4EC2277AAAC8888328EC5A64B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58E980A64F2C6FBA34418528BD8432AF /* AlamofireImage */ = {
+			isa = PBXGroup;
+			children = (
+				0886CEBDDB58DA24AA1FADEB5832B1D5 /* AFIError.swift */,
+				8A1B769F73DCEDC38DFF1524FCF6836F /* Image.swift */,
+				31A3675C45AA0ECC4311946E97268B3C /* ImageCache.swift */,
+				46E3EE78528B481950EA376128D704FA /* ImageDownloader.swift */,
+				41FDAE38C3C6102BADAEA41D643CA8E6 /* ImageFilter.swift */,
+				5BBACDD29835A7C20FE2EA4302D012C9 /* Request+AlamofireImage.swift */,
+				ED6C729EC8101B9541F5CC01269A2D7F /* UIButton+AlamofireImage.swift */,
+				F2E78B46C17C9FA83DD208FADDFCA12D /* UIImage+AlamofireImage.swift */,
+				EFFCC0AFAE4710453B7DC464CDC890FF /* UIImageView+AlamofireImage.swift */,
+				4C9B01E3DB02B659AECEED92FBB724B9 /* Support Files */,
+			);
+			name = AlamofireImage;
+			path = AlamofireImage;
+			sourceTree = "<group>";
+		};
+		59B91F212518421F271EBA85D5530651 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */,
+				51A9B78D6A7E7FB5A465754528750815 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6232D93C568CA2F876D06F078DB3C049 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6E996D60D9C5F925138411A83EE74C3 /* Alamofire */,
+				58E980A64F2C6FBA34418528BD8432AF /* AlamofireImage */,
+				380D96A95EF74E54894FA46B2BB93EAD /* Cosmos */,
+				65E1BAA83B97DB535D77D9E76D008141 /* GoogleMaps */,
+				B08DA8D54D84AB72C887511A38180698 /* GooglePlaces */,
+				368AF3E9B2FDD2C4A71EF758C7E06DF9 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65E1BAA83B97DB535D77D9E76D008141 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				E9B7FABD7DB46383E9EBE9C2C6ABB143 /* Base */,
+				DAEBA1305C4ED34A2EA0FE5509629E88 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				59B91F212518421F271EBA85D5530651 /* Frameworks */,
+				6232D93C568CA2F876D06F078DB3C049 /* Pods */,
+				415890B735975F926A544EF66D6697B6 /* Products */,
+				F016DEF25007A14C35D9FE888D4F1DFE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93FCFAB201AD82598C793337523B7B8C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				58AE4DFE681DA64A4B97A9B61C998894 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A6F80F06E5BD007D3BFEB7649526D231 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCBB704D542F45DB249AA0C80D2A00 /* Alamofire.modulemap */,
+				5AB03122F98D8A705CDD74062F2A0FB3 /* Alamofire.xcconfig */,
+				71F48BA6F7F506EA2428AEE4DF04FD63 /* Alamofire-dummy.m */,
+				8297ACEE8D8E9ED33D65BC329F88F0E2 /* Alamofire-prefix.pch */,
+				523CF47B35F673745DF088949FF199AF /* Alamofire-umbrella.h */,
+				1FA3C062BC1C8A1FCC718B9CA60D177B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		B08DA8D54D84AB72C887511A38180698 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				347EF8CDD2C187275389E9025D035372 /* Frameworks */,
+				93FCFAB201AD82598C793337523B7B8C /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		B6E996D60D9C5F925138411A83EE74C3 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				2E6A7955B2A88C3A7B953D9398C73982 /* AFError.swift */,
+				E46FF2B8728B8BCA8B639A4B65D5C2B9 /* Alamofire.swift */,
+				6E26D5082569F089160F7CB902DA9594 /* DispatchQueue+Alamofire.swift */,
+				53C1DF588C70CA19ABEB21C50B391539 /* MultipartFormData.swift */,
+				0FA0039192D1EE619E45912C6564EF84 /* NetworkReachabilityManager.swift */,
+				35A61FDAD28FCA7E52CD91D7CBFD6D61 /* Notifications.swift */,
+				CF1E67ED799EEF8FC0DE830D64DA5186 /* ParameterEncoding.swift */,
+				E0A0B0D8FAC38774C9606DA8FCF37845 /* Request.swift */,
+				79005456FE8780D49B1BC835ACF1279F /* Response.swift */,
+				BCB081E3F7CB32A4420B2CC287A45698 /* ResponseSerialization.swift */,
+				00C57B54D64FEFE286B1EA5FEC74669E /* Result.swift */,
+				D123F37E446CE4D7ED2C39FADCF4D10C /* ServerTrustPolicy.swift */,
+				4420F04FEEF5FAB9A5CD973D0444CF32 /* SessionDelegate.swift */,
+				A2B70C4DB1536B5AD3F2BD9588F60FD0 /* SessionManager.swift */,
+				919AB0909F3BFF1DCB0CD685B48E04F6 /* TaskDelegate.swift */,
+				F30508C9F86E55FF7F9F4F7FF60F8E6F /* Timeline.swift */,
+				C24F600989F128B03AEEA55B6FA39333 /* Validation.swift */,
+				A6F80F06E5BD007D3BFEB7649526D231 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		B94D0FEF2A4B2B5B63BABF8E548F8B6B /* Pods-YelpAndGoogleMap */ = {
+			isa = PBXGroup;
+			children = (
+				4048C424EF7F1A930460E6CC67958EC3 /* Info.plist */,
+				8398551AEDE898B15FD0DB07BC874158 /* Pods-YelpAndGoogleMap.modulemap */,
+				BDCB651C9C0311D01893D8D5DCA3E62F /* Pods-YelpAndGoogleMap-acknowledgements.markdown */,
+				2C64627E0967D4EE38286BFE11DE8187 /* Pods-YelpAndGoogleMap-acknowledgements.plist */,
+				EAA11DE022C2951412700674D81389F8 /* Pods-YelpAndGoogleMap-dummy.m */,
+				0D5C7FAB5245BBB6162A2B155323F513 /* Pods-YelpAndGoogleMap-frameworks.sh */,
+				111546E32E503DBCA2CDD0FA341EC825 /* Pods-YelpAndGoogleMap-resources.sh */,
+				E0C00003958951AFC62FDA4ACA5BD342 /* Pods-YelpAndGoogleMap-umbrella.h */,
+				D2873F950EC37E9C248D2C2B34091C30 /* Pods-YelpAndGoogleMap.debug.xcconfig */,
+				2E1E9EBA95B4BE4B0F11259DE0867B52 /* Pods-YelpAndGoogleMap.release.xcconfig */,
+			);
+			name = "Pods-YelpAndGoogleMap";
+			path = "Target Support Files/Pods-YelpAndGoogleMap";
+			sourceTree = "<group>";
+		};
+		D085D61C9BF5C73A34C6EC42DFE54AC8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E487B0866C5A0285C84DB6019A78D7AA /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D57B0D6BAF31A83E7CC76C39452C68D9 /* Pods-YelpAndGoogleMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67A082AF08890690DFDE2A39ED78DD29 /* Info.plist */,
+				21FAF00B615956EFCB9578F120273062 /* Pods-YelpAndGoogleMapUITests.modulemap */,
+				52871C6DF66A11E556C1B813308F7787 /* Pods-YelpAndGoogleMapUITests-acknowledgements.markdown */,
+				EB7FEE450D8A8A64BF252DE9378509DF /* Pods-YelpAndGoogleMapUITests-acknowledgements.plist */,
+				4611FA3A7DB442FDF95E500EC31E2B66 /* Pods-YelpAndGoogleMapUITests-dummy.m */,
+				0EEDCF281F3BAEC44858CDD8FE1F90C0 /* Pods-YelpAndGoogleMapUITests-frameworks.sh */,
+				7C523FEBB7CAB7944C12A8E42A27CB5F /* Pods-YelpAndGoogleMapUITests-resources.sh */,
+				60760CD2717CF355FDBDF66A0DE59D80 /* Pods-YelpAndGoogleMapUITests-umbrella.h */,
+				FF7DCB7751CD733D4D347291792B51AB /* Pods-YelpAndGoogleMapUITests.debug.xcconfig */,
+				EA65DD37045F46F14D3CFD3FC44D2911 /* Pods-YelpAndGoogleMapUITests.release.xcconfig */,
+			);
+			name = "Pods-YelpAndGoogleMapUITests";
+			path = "Target Support Files/Pods-YelpAndGoogleMapUITests";
+			sourceTree = "<group>";
+		};
+		DAEBA1305C4ED34A2EA0FE5509629E88 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				23CA0CE5270F94B2073F23AA397C70B3 /* Frameworks */,
+				D085D61C9BF5C73A34C6EC42DFE54AC8 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		DAF2BB6A6AE1F7443F9F317B6962B06C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98B4E287D1FF70E057FDA784CF032541 /* Info.plist */,
+				C81B92B89DB7FEDB97990CF2B37BEC5E /* SwiftyJSON.modulemap */,
+				867E41933F0BDA42A4508077B9D6EC6B /* SwiftyJSON.xcconfig */,
+				8DACB07AD79654A143536E1D848EAA34 /* SwiftyJSON-dummy.m */,
+				C654A5FE1EC90B77B431F3EDA701F5F7 /* SwiftyJSON-prefix.pch */,
+				43122CB73CEEA563FFF3B54CEEA38505 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		E9B7FABD7DB46383E9EBE9C2C6ABB143 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FB5F97A4E2D0309874FDBAABA43E933D /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		F016DEF25007A14C35D9FE888D4F1DFE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B94D0FEF2A4B2B5B63BABF8E548F8B6B /* Pods-YelpAndGoogleMap */,
+				2CEF4A9EB4933C1E134FA710797E10DF /* Pods-YelpAndGoogleMapTests */,
+				D57B0D6BAF31A83E7CC76C39452C68D9 /* Pods-YelpAndGoogleMapUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FB5F97A4E2D0309874FDBAABA43E933D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8F63FCD758394550832BDB34EF9AD03 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		21AE937D4C1DB3FACD493EF07422E735 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A41310C66B9B832C9AE85F0504A5B4 /* Pods-YelpAndGoogleMap-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55976C6AFDAAB2A7747026086A7444B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D187EFBBCC0E188CE8C4F12BA8438A /* Pods-YelpAndGoogleMapUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7F72A88918035AFA923560A84B87C61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5E91A47C1BF6869DF17747D61C2FF1 /* Cosmos-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA7CA83882708E97D2C7C78AA67FA8AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07476D1102A291B3BE88BC04152C0732 /* Pods-YelpAndGoogleMapTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA426B479FDFC70A656C329E555B024 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9236B233355F88EB7285EBC0F39DE8F8 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB21FD03B7703901958C3CE43325DAE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EDA9ED83F4442303A46839027E152E /* AlamofireImage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01CC37932A9B51D94E0C970A05C95887 /* Pods-YelpAndGoogleMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33DA81D6022E7D6B70957FE03EB36FDF /* Build configuration list for PBXNativeTarget "Pods-YelpAndGoogleMapUITests" */;
+			buildPhases = (
+				5D54E35F1F63CBB1CB94B4D79AF29019 /* Sources */,
+				571DEC9F0F6044F8837979631DEA9D31 /* Frameworks */,
+				55976C6AFDAAB2A7747026086A7444B5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YelpAndGoogleMapUITests";
+			productName = "Pods-YelpAndGoogleMapUITests";
+			productReference = 9DF651E766A55B9DD4FD3399751D477B /* Pods_YelpAndGoogleMapUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1AC0D4958B7F71FB396A7CE7F67EFAAB /* Pods-YelpAndGoogleMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1F701E8E60958627644725F51C4F30 /* Build configuration list for PBXNativeTarget "Pods-YelpAndGoogleMapTests" */;
+			buildPhases = (
+				8119AA0BBBB618837604F722791E205A /* Sources */,
+				28F3F379139E50A0FAF6B74367424B68 /* Frameworks */,
+				BA7CA83882708E97D2C7C78AA67FA8AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YelpAndGoogleMapTests";
+			productName = "Pods-YelpAndGoogleMapTests";
+			productReference = 27A59ABE6A130235C583D7FEA48456D5 /* Pods_YelpAndGoogleMapTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3EC4991E69EBCB9E20BEB373F44FD8F9 /* Pods-YelpAndGoogleMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE23D4B9BCA463AED62D579BC9BD269 /* Build configuration list for PBXNativeTarget "Pods-YelpAndGoogleMap" */;
+			buildPhases = (
+				E4691973EAF439150BE76475356D28F3 /* Sources */,
+				3A08AD13DDF3BBE89C56B051F9099364 /* Frameworks */,
+				21AE937D4C1DB3FACD493EF07422E735 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02B8A55A5F8A53BD645E0AE7029CDBF1 /* PBXTargetDependency */,
+				E10667AA150E1700F55DC660B11D0BF9 /* PBXTargetDependency */,
+				CBF48DB6D6CB57BDA1C00F796CBC7D55 /* PBXTargetDependency */,
+				1A628AD4CB521051B4F79316F5952F8A /* PBXTargetDependency */,
+			);
+			name = "Pods-YelpAndGoogleMap";
+			productName = "Pods-YelpAndGoogleMap";
+			productReference = 39676267C4A7ECD27EB2B1076D3BD515 /* Pods_YelpAndGoogleMap.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FDC533A4360A68ABDCE852F04B30927 /* Cosmos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CA41A3E689F135BAEECE91B63D9EA0 /* Build configuration list for PBXNativeTarget "Cosmos" */;
+			buildPhases = (
+				64A8AA816E108F31E7CEE1A683E42839 /* Sources */,
+				23E1D2C8911A1F4127AF93A478D985B5 /* Frameworks */,
+				B7F72A88918035AFA923560A84B87C61 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cosmos;
+			productName = Cosmos;
+			productReference = 0CDBD12535499EDCF47FF257A368326E /* Cosmos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = DE64278D33B2EF0EBD9F8F5A9F8EE029 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95347F2CD7D798BA142A9500D3353C94 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B50BABADCFA6C751C94743AD35DFD8 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				27E69CAA0348F2FCD0F81872FE939EB2 /* Sources */,
+				4CF30650E2D60B2CB467C83F62773B5C /* Frameworks */,
+				DEA426B479FDFC70A656C329E555B024 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 0EDBAAEF7BCAC6A3620B9E11F7E357C5 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9EFE4C70245EE2857D336B8B9FA4E825 /* AlamofireImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F2198AF9DCCF3700AE9DD21E64D480 /* Build configuration list for PBXNativeTarget "AlamofireImage" */;
+			buildPhases = (
+				DB0BE2FBB4DB070AD3C57C41C562C32B /* Sources */,
+				BF98FBBDC964E0CC738F6B323B4C1BB8 /* Frameworks */,
+				EB21FD03B7703901958C3CE43325DAE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8937A2057A0DAADF003B7C65E7CE115D /* PBXTargetDependency */,
+			);
+			name = AlamofireImage;
+			productName = AlamofireImage;
+			productReference = 1DE400992A953DB0E2BDFA84CE003A9D /* AlamofireImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 415890B735975F926A544EF66D6697B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				9EFE4C70245EE2857D336B8B9FA4E825 /* AlamofireImage */,
+				4FDC533A4360A68ABDCE852F04B30927 /* Cosmos */,
+				3EC4991E69EBCB9E20BEB373F44FD8F9 /* Pods-YelpAndGoogleMap */,
+				1AC0D4958B7F71FB396A7CE7F67EFAAB /* Pods-YelpAndGoogleMapTests */,
+				01CC37932A9B51D94E0C970A05C95887 /* Pods-YelpAndGoogleMapUITests */,
+				95347F2CD7D798BA142A9500D3353C94 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27E69CAA0348F2FCD0F81872FE939EB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005524A2779ED616BC8F615BD6D536EE /* SwiftyJSON-dummy.m in Sources */,
+				9E3E62C5438EA73A663D97BF30571E36 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D54E35F1F63CBB1CB94B4D79AF29019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DB1DC0172DA3C7C9F3682B69F7EA28 /* Pods-YelpAndGoogleMapUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A8AA816E108F31E7CEE1A683E42839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF6ECF23D38E7DA5B5B2B43707F2F4D /* Cosmos-dummy.m in Sources */,
+				7CC5A43D7E1372EB6292FCBC0151A36E /* CosmosAccessibility.swift in Sources */,
+				371F422D050761A63F0156F537B8902D /* CosmosDefaultSettings.swift in Sources */,
+				F66DE3EF01408C42C115587B201CB541 /* CosmosLayerHelper.swift in Sources */,
+				AA971D9492DD9B9E288045C2C0CC9A99 /* CosmosLayers.swift in Sources */,
+				0EC88D04EAE0CD3EFD3C3C89C1B9F45F /* CosmosLocalizedRating.swift in Sources */,
+				99F08F6FE2B165EEBD5E01EDDA176620 /* CosmosRating.swift in Sources */,
+				015C902B9C0E63DA0519A0D34E10F739 /* CosmosSettings.swift in Sources */,
+				25DFA72039CBA011EBA738AA73084A8E /* CosmosSize.swift in Sources */,
+				424AD9605CBDCD867083B9820784E0AC /* CosmosText.swift in Sources */,
+				4F40A9CBB316E7100828F0C6F5714946 /* CosmosTouch.swift in Sources */,
+				E2D8D1AA0D41C73C4B570DE682C05D72 /* CosmosTouchTarget.swift in Sources */,
+				45F546D14166EDEE46371951EC705C03 /* CosmosView.swift in Sources */,
+				C79D2F2FCE3EF9B31D1222E0C4A59DC5 /* RightToLeft.swift in Sources */,
+				88BA9FFC474BD7B995A0CEA06FF431F7 /* StarFillMode.swift in Sources */,
+				C95B658D689425ED9DAA95EB479B44A6 /* StarLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8119AA0BBBB618837604F722791E205A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37CF77D5CA63B9104890687496A1EE3 /* Pods-YelpAndGoogleMapTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0BE2FBB4DB070AD3C57C41C562C32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA0415A1A8A4FFC7403E201F915F9A4 /* AFIError.swift in Sources */,
+				37F951F2BDB75BD682C2999EB7B51A35 /* AlamofireImage-dummy.m in Sources */,
+				E1FF4985892E23B75A3381EFF830DFD5 /* Image.swift in Sources */,
+				D9E544B8CB42DA8DD44838F83610D8E0 /* ImageCache.swift in Sources */,
+				202822E4668C16D115A8F68F3ADF0E0F /* ImageDownloader.swift in Sources */,
+				27996F52CCABBD6D0874B79D1B913598 /* ImageFilter.swift in Sources */,
+				2BD7CFD41DACC439E8C0A527F1643495 /* Request+AlamofireImage.swift in Sources */,
+				C73BF39A4CCC3E450E102C23027F8FF8 /* UIButton+AlamofireImage.swift in Sources */,
+				05006BDD7301FCF2678618DEDCC69B94 /* UIImage+AlamofireImage.swift in Sources */,
+				304C5736AC5D49B526C709397D0CF048 /* UIImageView+AlamofireImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4691973EAF439150BE76475356D28F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404D4027D74B319391589D74EB1CC91B /* Pods-YelpAndGoogleMap-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02B8A55A5F8A53BD645E0AE7029CDBF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = 2DDBDC6EF4F9358F0631516C54A45446 /* PBXContainerItemProxy */;
+		};
+		1A628AD4CB521051B4F79316F5952F8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 95347F2CD7D798BA142A9500D3353C94 /* SwiftyJSON */;
+			targetProxy = A9D0DB6040BA0C58CF07701078065CE5 /* PBXContainerItemProxy */;
+		};
+		8937A2057A0DAADF003B7C65E7CE115D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = A1758AA696D56310AA192B587162169A /* PBXContainerItemProxy */;
+		};
+		CBF48DB6D6CB57BDA1C00F796CBC7D55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cosmos;
+			target = 4FDC533A4360A68ABDCE852F04B30927 /* Cosmos */;
+			targetProxy = AE56BA9D6195841BDFC7F111553991F8 /* PBXContainerItemProxy */;
+		};
+		E10667AA150E1700F55DC660B11D0BF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlamofireImage;
+			target = 9EFE4C70245EE2857D336B8B9FA4E825 /* AlamofireImage */;
+			targetProxy = 79B41FB821ED370F0D7F9A3F64638DCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0516A560BE5B86E372C8EAD196CACDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3023CF031365EC80D76D7AE5AD603720 /* Pods-YelpAndGoogleMapTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YelpAndGoogleMapTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YelpAndGoogleMapTests/Pods-YelpAndGoogleMapTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YelpAndGoogleMapTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		076EFA6009042EE9DC6C3E5FE5FBA213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32D929783E4EC63E94B78680F3E7E08C /* AlamofireImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AlamofireImage/AlamofireImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlamofireImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlamofireImage/AlamofireImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AlamofireImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		425B6D95D2C161E2695D55ABEE7942EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48808419100EC3CAB63888637B788D3E /* Cosmos.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5406F469878A33833E1E37167B463927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32D929783E4EC63E94B78680F3E7E08C /* AlamofireImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AlamofireImage/AlamofireImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlamofireImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlamofireImage/AlamofireImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AlamofireImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		643C76AA582046977B7877822ED7A258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		72CEBB7D357542674F48533F4D2D0A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867E41933F0BDA42A4508077B9D6EC6B /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D072D0D174F12EAACC1862DA756E67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB03122F98D8A705CDD74062F2A0FB3 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94E1D99EE78496F81808EFC737F035F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E1E9EBA95B4BE4B0F11259DE0867B52 /* Pods-YelpAndGoogleMap.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YelpAndGoogleMap/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YelpAndGoogleMap/Pods-YelpAndGoogleMap.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YelpAndGoogleMap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A62668EB600B47264E02A54F30FB6C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA65DD37045F46F14D3CFD3FC44D2911 /* Pods-YelpAndGoogleMapUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YelpAndGoogleMapUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YelpAndGoogleMapUITests/Pods-YelpAndGoogleMapUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YelpAndGoogleMapUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A18C399588A174D7300853A9FE31EFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7DCB7751CD733D4D347291792B51AB /* Pods-YelpAndGoogleMapUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YelpAndGoogleMapUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YelpAndGoogleMapUITests/Pods-YelpAndGoogleMapUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YelpAndGoogleMapUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB5A48B2E6190C761F28BA9B90EDE418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867E41933F0BDA42A4508077B9D6EC6B /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B186ADA5FA8010EA0E1788157E91D06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2873F950EC37E9C248D2C2B34091C30 /* Pods-YelpAndGoogleMap.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YelpAndGoogleMap/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YelpAndGoogleMap/Pods-YelpAndGoogleMap.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YelpAndGoogleMap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9075279261DD42022E2357330A8DC84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48808419100EC3CAB63888637B788D3E /* Cosmos.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9660A42FEDD040185578ADA021EC8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB03122F98D8A705CDD74062F2A0FB3 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB0BA228637BCBA86DA75A859A33B8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF5406B2985387DC6F934641AE07D5CF /* Pods-YelpAndGoogleMapTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YelpAndGoogleMapTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YelpAndGoogleMapTests/Pods-YelpAndGoogleMapTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YelpAndGoogleMapTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01F2198AF9DCCF3700AE9DD21E64D480 /* Build configuration list for PBXNativeTarget "AlamofireImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076EFA6009042EE9DC6C3E5FE5FBA213 /* Debug */,
+				5406F469878A33833E1E37167B463927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643C76AA582046977B7877822ED7A258 /* Debug */,
+				C03B8870130C98D1B02B59D003687524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33DA81D6022E7D6B70957FE03EB36FDF /* Build configuration list for PBXNativeTarget "Pods-YelpAndGoogleMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18C399588A174D7300853A9FE31EFE5 /* Debug */,
+				9A62668EB600B47264E02A54F30FB6C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38CA41A3E689F135BAEECE91B63D9EA0 /* Build configuration list for PBXNativeTarget "Cosmos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9075279261DD42022E2357330A8DC84 /* Debug */,
+				425B6D95D2C161E2695D55ABEE7942EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9660A42FEDD040185578ADA021EC8E0 /* Debug */,
+				7D072D0D174F12EAACC1862DA756E67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE23D4B9BCA463AED62D579BC9BD269 /* Build configuration list for PBXNativeTarget "Pods-YelpAndGoogleMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B186ADA5FA8010EA0E1788157E91D06B /* Debug */,
+				94E1D99EE78496F81808EFC737F035F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4B50BABADCFA6C751C94743AD35DFD8 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72CEBB7D357542674F48533F4D2D0A65 /* Debug */,
+				AB5A48B2E6190C761F28BA9B90EDE418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1F701E8E60958627644725F51C4F30 /* Build configuration list for PBXNativeTarget "Pods-YelpAndGoogleMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0516A560BE5B86E372C8EAD196CACDAF /* Debug */,
+				DB0BA228637BCBA86DA75A859A33B8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
